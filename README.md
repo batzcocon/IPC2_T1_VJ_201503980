@@ -28,18 +28,7 @@ Aux, en esta tarea se probó utilizar una verificacion de datos duplicados, ento
 
 ## 📊 Diagrama de Clases
 
-+-------------------+           usa           +---------------------------+
-|   GestorVuelos    |------------------------>|          Vuelo            |
-+-------------------+                         +---------------------------+
-| - vuelos          |                         | - codigo                  |
-+-------------------+                         | - origen                  |
-| + __init__()      |                         | - destino                 |
-| + cargar_archivo()|                         | - duracion                |
-| + detalle_vuelo() |                         | - aerolinea               |
-| + agrupar_por_... |                         +---------------------------+
-| + ordenar_por_... |                         | + __init__()              |
-+-------------------+                         | + __str__()               |
-                                              +---------------------------+
+![Diagrama](dclases.png)
 
 
 ## 👤 Autor
